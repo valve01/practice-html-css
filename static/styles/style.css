@@ -1,5 +1,9 @@
 /* Контент */
 
+body {
+	margin: 0;
+	padding: 0;
+}
 span {
 	font-style: italic;
 }
@@ -20,19 +24,53 @@ span {
 } */
 .img-container {
 	float: right;
-	border-style:solid ;
+	border-style: solid;
 	padding: 5px;
 	border-width: 0.5px;
 	margin-left: 10px;
 }
-.img-container>div {display: flex;
-	flex-direction: column;align-items: center;}
-	.logo-html5{max-width: 70px;
-	}
-
-	/* Верхняя навигационная панель */
-	.nav-container{display: flex;
-	justify-content:space-between;
+.img-container > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-.nav-container>nav>ul{display: flex;
-list-style: none;}
+.logo-html5 {
+	max-width: 70px;
+}
+
+/* Верхняя навигационная панель */
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(110, 163, 224, 0.411);
+}
+.nav-container > nav > ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+.nav-container > nav > ul > li > a {
+	display: block;
+	padding: 10px;
+	border-style: solid;
+	border-width: 0.5px;
+	font-size: 12px;
+}
+@media (max-width: 900px) {
+	.nav-container {
+		flex-direction: column;
+	}
+}
+.header {
+	width: 14%;
+}
+
+.section {
+	width: 82%;
+}
+
+.page{
+	display: flex;
+}
