@@ -1,0 +1,4 @@
+.main {background-color: aqua;}
+.border-div{border-style: solid !important;}
+.main.border-div{background-color: bisque
+	; border-style: dotted;}
