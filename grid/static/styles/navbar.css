@@ -2,7 +2,9 @@
 	display: flex;
 	background-color: rgb(233, 107, 103);
 }
-.nav-list {display: flex;}
+.nav-list {
+	display: flex;
+}
 .nav-list a {
 	display: block;
 	padding: 1em;
@@ -10,5 +12,31 @@
 	border-width: 0.5px;
 	border-color: black; */
 	text-decoration: none;
-	color:rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+}
+.nav-list a:hover {
+	background-color: rgb(233, 34, 34);
+}
+
+.nav-btn {
+	font-size: 2em;
+	padding-inline: 10px;
+	padding-bottom: 3px;
+	border: none;
+	background-color: rgb(233, 107, 103);
+	color: white;
+	cursor: pointer;
+}
+.nav-btn:hover {
+	background-color: rgb(233, 34, 34);
+}
+@media (min-width: 600px) {
+	.nav-btn {
+		display: none;
+	}
+}
+@media (max-width: 600px) {
+	.nav-list {
+		display: none;
+	}
 }
