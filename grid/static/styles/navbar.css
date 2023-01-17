@@ -27,16 +27,22 @@
 	color: white;
 	cursor: pointer;
 }
+
 .nav-btn:hover {
 	background-color: rgb(233, 34, 34);
 }
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	.nav-btn {
 		display: none;
 	}
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 	.nav-list {
 		display: none;
 	}
 }
+.drop:hover .nav-list{display: block;
+position:absolute;background-color: rgb(233, 107, 103);
+right: 1px;
+}
+.navbar {justify-content: space-between;}
