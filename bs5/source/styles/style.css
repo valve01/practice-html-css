@@ -1,3 +1,17 @@
-.navbar a{
+.nav-link {
 	color: aliceblue;
 }
+.navbar-nav .nav-link.active {
+	color: gray;
+}
+.navbar-brand {
+	color: red;
+	font-size: 2em;
+}
+.navbar-brand:hover {
+color: rgb(206, 177, 11);
+	
+
+}
+
+.navbar-toggler{background-color: gray;}
