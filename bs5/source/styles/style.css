@@ -53,4 +53,21 @@ body {
 	text-shadow: -3px -2px 9px #d3c615;
 	margin-block: auto auto;
 }
-@media(max-width:755px){.carousel-indicators{display: none;}}
+@media (max-width: 767px) {
+	.carousel-indicators {
+		display: none;
+	}
+}
+footer {
+	background-color: rgb(37, 37, 37);
+}
+.footer-text,
+.footer-text a {
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.social{
+	display: flex; justify-content:center;
+align-items: center;}
