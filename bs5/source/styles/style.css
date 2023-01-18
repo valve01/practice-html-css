@@ -24,9 +24,11 @@ body {
 
 .card {
 	background: linear-gradient(180deg, gray 0%, #fff 100%);
-	
 }
-.card a{text-decoration: none; color: rgb(32, 32, 32);}
+.card a {
+	text-decoration: none;
+	color: rgb(32, 32, 32);
+}
 .card:hover {
 	animation: myAnim 0.1s ease 0s 1 normal forwards;
 }
@@ -47,3 +49,8 @@ body {
 	color: rgb(0, 0, 0);
 	background: linear-gradient(180deg, rgb(172, 172, 172) 0%, #fff 100%);
 }
+.tank-description {
+	text-shadow: -3px -2px 9px #d3c615;
+	margin-block: auto auto;
+}
+@media(max-width:755px){.carousel-indicators{display: none;}}
