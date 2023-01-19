@@ -65,14 +65,17 @@ footer {
 .footer-text a {
 	color: #fff;
 	text-decoration: none;
-	
 }
 
-.social{
-	display: flex; justify-content:center;
-align-items: center;}
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-.call-us{animation: CallAnim 2s ease 0s infinite normal forwards;}
+.call-us {
+	animation: CallAnim 2s ease 0s infinite normal forwards;
+}
 @keyframes CallAnim {
 	0%,
 	100% {
@@ -105,4 +108,8 @@ align-items: center;}
 	}
 }
 
-.btn-outline-secondary:hover{color: black;background: linear-gradient(90deg, gray 0%, #fff 100%);}
+.btn-outline-secondary:hover {
+	color: black;
+	background: linear-gradient(90deg, gray 0%, #fff 100%);
+}
+
