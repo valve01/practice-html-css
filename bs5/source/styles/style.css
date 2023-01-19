@@ -71,3 +71,38 @@ footer {
 .social{
 	display: flex; justify-content:center;
 align-items: center;}
+
+.call-us{animation: CallAnim 2s ease 0s infinite normal forwards;}
+@keyframes CallAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+.btn-outline-secondary:hover{color: black;background: linear-gradient(90deg, gray 0%, #fff 100%);}
